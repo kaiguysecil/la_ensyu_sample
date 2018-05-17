@@ -21,4 +21,14 @@
     $arr = [1, 2, 3];
     printArray($arr);
 
+    function printArray2(array $arr) {
+      for ($i = 0; $i < count($arr); $i++) {
+        echo $arr[$i] . " ";
+      }
+      echo "<br>";
+    }
+
+    $arr2 = [1, 2, 3];
+    printArray2($arr2);
+
 ?>
