@@ -8,7 +8,36 @@
         echo "<br>";
     }
 
-    $arr2 = [4, 5, 6];
-    printArrayEach($arr2);
-    echo "test";
+    $arr4 = [4, 5, 6];
+    printArrayEach($arr4);
+
+    function printArray(array $arr) {
+      for ($i = 0; $i < count($arr); $i++) {
+        echo $arr[$i] . " ";
+      }
+      echo "<br>";
+    }
+
+    $arr = [1, 2, 3];
+    printArray($arr);
+
+    function printArrayEach2(array $arr) {
+        foreach ($arr as $value) {
+            echo $value . " ";
+        }
+        echo "<br>";
+    }
+
+    $arr3 = [4, 5, 6];
+    printArrayEach2($arr3);
+
+    function printArray2(array $arr) {
+      for ($i = 0; $i < count($arr); $i++) {
+        echo $arr[$i] . " ";
+      }
+      echo "<br>";
+    }
+
+    $arr2 = [1, 2, 3];
+    printArray2($arr2);
 ?>
