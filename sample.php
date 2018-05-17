@@ -41,4 +41,5 @@
 
     $arr2 = [1, 2, 3];
     printArray2($arr2);
+    echo "test";
 ?>
