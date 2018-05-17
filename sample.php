@@ -19,5 +19,6 @@
     }
 
     $arr = [1, 2, 3];
+    printArray($arr);
 
 ?>
