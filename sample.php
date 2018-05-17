@@ -1,7 +1,6 @@
 <?php
     echo "Hello";
 
-<<<<<<< HEAD
     function printArrayEach(array $arr) {
         foreach ($arr as $value) {
             echo $value . " ";
@@ -11,7 +10,7 @@
 
     $arr2 = [4, 5, 6];
     printArrayEach($arr2);
-=======
+
     function printArray(array $arr) {
       for ($i = 0; $i < count($arr); $i++) {
         echo $arr[$i] . " ";
@@ -20,5 +19,5 @@
     }
 
     $arr = [1, 2, 3];
->>>>>>> kai_mac
+
 ?>
