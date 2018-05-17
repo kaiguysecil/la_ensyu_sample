@@ -30,4 +30,15 @@
 
     $arr3 = [4, 5, 6];
     printArrayEach2($arr3);
+
+    function printArray2(array $arr) {
+      for ($i = 0; $i < count($arr); $i++) {
+        echo $arr[$i] . " ";
+      }
+      echo "<br>";
+    }
+
+    $arr2 = [1, 2, 3];
+    printArray2($arr2);
+
 ?>
