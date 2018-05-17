@@ -19,6 +19,7 @@
     }
 
     $arr = [1, 2, 3];
+
     printArray($arr);
 
     function printArrayEach2(array $arr) {
@@ -40,4 +41,5 @@
 
     $arr2 = [1, 2, 3];
     printArray2($arr2);
+    echo "test";
 ?>
