@@ -2,7 +2,7 @@
 
 下記項目を記入して下さい。
 <br><br>
-ISBN番号
+ISBN番号だ！
 <input type=text name="" value=""><br>
 <input type="submit" value="てすと！">
 </form>
