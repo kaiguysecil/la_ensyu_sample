@@ -9,4 +9,6 @@
  $sumita->$age = 2000;
  $sumita->$name = "satoru";
  $sumita->$adress = "Saitama";
+
+ echo $name."さんは".$adress."在住の".$age."才です。";
 ?>
